@@ -61,6 +61,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     height: 240px;
+    border-top: 1px solid #e0c52c;
     color: #e0c52c;
 }
 
