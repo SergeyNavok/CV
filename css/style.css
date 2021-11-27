@@ -56,6 +56,14 @@ body {
     flex-direction: column;
 }
 
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 240px;
+    color: #e0c52c;
+}
+
 /*part right*/
 .column_right {
     width: 440px;
@@ -70,6 +78,11 @@ body {
     font-size: 20px;
     font-weight: 700;
     margin-right: 15px;
+}
+
+.description_alt {
+    width: 80px;
+    font-size: 18px;
 }
 
 .section {
