@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: #e0e0e0;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 640px;
+}
+
+/*part left*/
+.column_left {
+    width: 220px;
+    background-color: #3c3c3c;
+}
+
+/*part right*/
+.column_right {
+    width: 440px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
