@@ -19,6 +19,14 @@ body {
     background-color: #3c3c3c;
 }
 
+.avatar {
+    background-image: url("../img/avatar.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
 /*part right*/
 .column_right {
     width: 440px;
