@@ -39,6 +39,17 @@
             </span>
 
             <h4>Code samples</h4>
+            <div>
+                Article article = new Article(id, title, description, text, date, author);
+                <br>articlesService.saveArticle(article, user_id);
+                <br>jumpPage(request, response, ControllerConstant.CREATE_JSP);
+                <hr>
+                if (Objects.nonNull(user)) {
+                <br> HttpSession session = request.getSession();
+                <br> session.setAttribute(ControllerConstants.USER_ATTR, user);
+                <br> jump(request, response, ControllerConstants.PRIVATE_CONT);
+                <br> }
+            </div>
 
             <h5>My english level</h5>
         </div>
