@@ -73,6 +73,14 @@ body {
     box-sizing: border-box;
 }
 
+.chapter {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
 /*text*/
 .description {
     text-transform: capitalize;
