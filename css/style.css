@@ -119,3 +119,8 @@ body {
 .lastname {
     font-weight: 700;
 }
+
+.link {
+    font-weight: 900;
+    color: blue;
+}
