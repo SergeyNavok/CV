@@ -81,6 +81,11 @@ body {
     border-bottom: 1px solid black;
 }
 
+.code {
+    background-color: #dbd4ab;
+    font-size: 12px;
+}
+
 /*text*/
 .description {
     text-transform: capitalize;
